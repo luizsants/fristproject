@@ -4,6 +4,7 @@ import java.io.*;
 public class JogoDaVelha {
 
     public static void main(String[] args) {
+        //simbolo atual = sa
         char sa = 'X';
         Campo[][] velha = new Campo[2][2];
         Scanner scan = new Scanner(System.in);
@@ -73,6 +74,7 @@ public class JogoDaVelha {
 
     // Linha é p[0]
     // Coluna é p[1]
+    //simbolo atual = sa
     public static int jogar1(Scanner scan, char sa) {
         int p;
         System.out.printf("Quem joga: %c\n", sa);
